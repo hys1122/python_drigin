@@ -1,0 +1,13 @@
+#내 몸 스팩
+
+name="한윤성"
+age=28
+height=180
+weight="70kg"
+
+good=["name":"한윤성", "age":28. "height":180, "weight":"70kg"]
+
+
+print("age")
+
+print(good)
