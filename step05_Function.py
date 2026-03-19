@@ -35,7 +35,7 @@ def print_sum(num1: int, num2: int):
 print_sum(10,20)
 print_sum(30,40)
 
-def print_info(name: str, addr: srt):
+def print_info(name: str, addr: str):
     print(f" 이름은 {name} 이고 주소는 {addr}")
 
 print_info("한윤성", "수원")
