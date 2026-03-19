@@ -24,11 +24,14 @@ dict_obj = yaml.safe_load(info)
 
 
 print(dict_obj)
+
 print(type(dict_obj))
 
 #dict에서 yaml로 변경
 yaml_str = yaml.dump(dict_obj, allow_unicode=True)
+
 print("\nYAML info:")
+
 print(yaml_str)
 
 print(type(yaml_str))
