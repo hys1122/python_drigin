@@ -1,6 +1,7 @@
 # yaml 형식의 문자열 다루기
 
 #yaml 문자열을 다룰때는 외부 모듈을 pip 로 설치를 해서 import 를 해야한다.
+#python 가상환경을 구성하고 pip install pyyaml 설치 후에 yaml 을 다룰수 있다.
 import yaml
 
 info = '''
@@ -35,3 +36,22 @@ print("\nYAML info:")
 print(yaml_str)
 
 print(type(yaml_str))
+
+
+#선생님의 변환법!
+
+# yaml 형식의 문자열을 로딩해서 dict type 으로 변경하기
+result = yaml.safe_load(info)
+
+
+print(result)
+
+
+# result(dict type) 을 다시 yaml 형식으로 변환하기
+result2=yaml.dump(result, allow_unicode=True, sort_keys=False)
+
+
+print(result2)
+
+
+print("마무리")
