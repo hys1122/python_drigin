@@ -38,7 +38,7 @@ second = "boy"
 '''
 tmp = first
 first = second
-first = tmp
+second = tmp
 '''
 #위의 3줄을 아래와 같이 해결 할 수 있다.
 first, second = second, first
