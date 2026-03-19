@@ -6,7 +6,7 @@ input_msg = input("메세지 입력:")
 
 print(f"입력한 메세지: {input_msg}")
 
-input_name: srt = input("이름 임력:")
+input_name: str = input("이름 임력:")
 input_addr: str = input("주소 임력:")
 
 print(f"이름:{input_name} 주소:{input_addr}")
